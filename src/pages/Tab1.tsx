@@ -16,7 +16,7 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Profile</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <div id="">
+        <div id="cover">
           <img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/354231992_1319969795582819_162204273908998251_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFWNKDVFubVCMm5e17mLRxdMkcZmb3xK7oyRxmZvfErus_cglVOjz9XERNnqW81D0WsDVInJRMCJF8zo0I4lowh&_nc_ohc=56NxX-JMhx0AX_GHXly&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfA4ZV6cK5rRT5deCaiSIfnToIF1PBntiU9ADCZU_SUuYA&oe=65F05344" alt="" />
         </div>
         <IonAvatar id="profile">

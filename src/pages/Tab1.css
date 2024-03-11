@@ -3,4 +3,12 @@
     width: 200px;
     height: 200px;
     --border-radius: 100px;
+    margin-top: 300px;
+    position: absolute;
+    border: 2px solid blue;
+}
+
+  #cover{
+    position: absolute;
+    border: 2px solid gray;
   }
