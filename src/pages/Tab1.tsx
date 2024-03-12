@@ -66,6 +66,34 @@ const Tab1: React.FC = () => {
         message="A message should be a short, complete sentence."
         buttons={['Action']}
       ></IonAlert>
+      <IonButton id="open-action-sheet" expand="block">More option</IonButton>
+      <IonActionSheet
+        trigger="open-action-sheet"
+        header="Actions"
+        buttons={[
+          {
+            text: 'Delete',
+            role: 'destructive',
+            data: {
+              action: 'delete',
+            },
+          },
+          {
+            text: 'Share',
+            data: {
+              action: 'share',
+            },
+          },
+          {
+            text: 'Cancel',
+            role: 'cancel',
+            data: {
+              action: 'cancel',
+            },
+          },
+        ]}
+      ></IonActionSheet>
+      
       
 <footer>
   <div className="footer-content">
