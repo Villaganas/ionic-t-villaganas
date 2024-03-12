@@ -1,4 +1,5 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonAvatar, IonItem, IonLabel, IonIcon } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonAvatar, IonItem, IonLabel, IonIcon, IonAlert, IonButton,IonActionSheet } from '@ionic/react';
+import React, { useState } from 'react';
 import { logoFacebook, logoTwitter, logoInstagram } from 'ionicons/icons';
 import './Tab1.css';
 
@@ -17,7 +18,7 @@ const Tab1: React.FC = () => {
         </div>
         <div className="profile-info">
           <IonAvatar className="avatar">
-            <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/423583714_1444891803090617_4793189191939464381_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGl5A39vM92hA5ErEMAjCv2ZXDTm0Na27JlcNObQ1rbsp5Ul0wAFj9_JbdxCDOsPtvuoatpXT6aHADqwV134QR8&_nc_ohc=FHPcVgYDS6UAX_1Dgd_&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfBELwBvnq2qdSeU1V1iIv2o0FQjt_nQL5R-__wC46atSg&oe=65EF434C" alt="Profile" />
+            <img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t39.30808-6/423583714_1444891803090617_4793189191939464381_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGl5A39vM92hA5ErEMAjCv2ZXDTm0Na27JlcNObQ1rbsp5Ul0wAFj9_JbdxCDOsPtvuoatpXT6aHADqwV134QR8&_nc_ohc=jZ5jgO7K2HsAX-2pfLu&_nc_ht=scontent.fmnl9-2.fna&oh=00_AfAsQldN8byicbbocPggK2Y4xRnSI4meMxDnGhRO7fTwAg&oe=65F5320C" alt="Profile" />
           </IonAvatar>
           <div className="profile-details">
             <h1>Bimbo E. Villaganas</h1>
@@ -56,6 +57,16 @@ const Tab1: React.FC = () => {
     </ul>
   </div>
 </div>
+
+<IonButton id="present-alert"expand="block">Read more</IonButton>
+      <IonAlert
+        trigger="present-alert"
+        header="A Short Title Is Best"
+        subHeader="A Sub Header Is Optional"
+        message="A message should be a short, complete sentence."
+        buttons={['Action']}
+      ></IonAlert>
+      
 <footer>
   <div className="footer-content">
     <div className="footer-section">
@@ -86,7 +97,6 @@ const Tab1: React.FC = () => {
     <p>&copy; 2024 Bimbo E. Villaganas. All rights reserved.</p>
   </div>
 </footer>
-
 
       </IonContent>
     </IonPage>
