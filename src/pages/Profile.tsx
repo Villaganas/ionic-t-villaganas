@@ -1,9 +1,9 @@
 import React from 'react';
 import { IonImg, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonAvatar, IonItem, IonLabel, IonIcon, IonList, IonListHeader, IonFooter, IonInput, IonButton } from '@ionic/react';
 import { logoFacebook, logoTwitter, logoInstagram } from 'ionicons/icons';
-import './Tab1.css';
+import './Profile.css';
 
-const Tab1: React.FC = () => {
+const Profile: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -17,7 +17,7 @@ const Tab1: React.FC = () => {
         </div>
         <div className="profile-info">
           <IonAvatar className="avatar">
-            <img src="hhttps://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-1/423583714_1444891803090617_4793189191939464381_n.jpg?stp=dst-jpg_p200x200&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGl5A39vM92hA5ErEMAjCv2ZXDTm0Na27JlcNObQ1rbsp5Ul0wAFj9_JbdxCDOsPtvuoatpXT6aHADqwV134QR8&_nc_ohc=mc0792_2MLEAX9rCELC&_nc_ht=scontent.fdvo2-1.fna&oh=00_AfBHZ0QRAYTyqG5RYlKge-JH4E5b_rNpR1iGGdf0p86fTg&oe=66020B0A" alt="Profile" />
+            <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/423583714_1444891803090617_4793189191939464381_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGl5A39vM92hA5ErEMAjCv2ZXDTm0Na27JlcNObQ1rbsp5Ul0wAFj9_JbdxCDOsPtvuoatpXT6aHADqwV134QR8&_nc_ohc=KA30GpMocpcAX96uIZj&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfCiSqiiYEsJtYCaLGxgm29UcXB2qQijyDF7E0jHXmSqOQ&oe=660309CC" alt="Profile" />
           </IonAvatar>
           <div className="profile-details">
             <h1>Bimbo E. Villaganas</h1>
@@ -27,7 +27,6 @@ const Tab1: React.FC = () => {
           </div>
         </div>
 
-        {/* Additional Content */}
         <div className="additional-content">
           <IonList>
             <IonListHeader>
@@ -118,4 +117,4 @@ const Tab1: React.FC = () => {
   );
 };
 
-export default Tab1;
+export default Profile;

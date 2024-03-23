@@ -1,5 +1,6 @@
+import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
-import { home, logoIonic, person, calculator, statsChart } from 'ionicons/icons'; // Import necessary icons
+import { home, person, calculator, statsChart } from 'ionicons/icons'; // Import necessary icons
 import {
   IonApp,
   IonIcon,
@@ -12,7 +13,7 @@ import {
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
-import Tab1 from './pages/Tab1';
+import Profile from './pages/Profile';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 
@@ -42,11 +43,11 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-        <Route exact path="/Home">
+          <Route exact path="/Home">
             <Home />
           </Route>
-          <Route exact path="/tab1">
-            <Tab1 />
+          <Route exact path="/Profile">
+            <Profile />
           </Route>
           <Route exact path="/tab2">
             <Tab2 />
@@ -55,15 +56,15 @@ const App: React.FC = () => (
             <Tab3 />
           </Route>
           <Route exact path="/">
-            <Redirect to="/tab1" />
+            <Redirect to="/Home" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-        <IonTabButton tab="Home" href="/Home">
+          <IonTabButton tab="Home" href="/Home">
             <IonIcon aria-hidden="true" icon={home} />
             <IonLabel>Home</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab1" href="/tab1">
+          <IonTabButton tab="Profile" href="/Profile">
             <IonIcon aria-hidden="true" icon={person} />
             <IonLabel>Profile</IonLabel>
           </IonTabButton>
