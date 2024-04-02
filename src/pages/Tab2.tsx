@@ -54,7 +54,6 @@ const Tab2: React.FC = () => {
     <p>&copy; 2024 Bimbo E. Villaganas. All rights reserved.</p>
   </div>
 </footer>
-
       </IonContent>
     </IonPage>
     
