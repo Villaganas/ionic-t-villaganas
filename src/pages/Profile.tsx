@@ -13,11 +13,11 @@ const Profile: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen>
         <div className="cover-photo">
-          <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-6/354231992_1319969795582819_162204273908998251_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFWNKDVFubVCMm5e17mLRxdMkcZmb3xK7oyRxmZvfErus_cglVOjz9XERNnqW81D0WsDVInJRMCJF8zo0I4lowh&_nc_ohc=lwqg-_ki8EoAX-NafJ5&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&oh=00_AfCpZMSBqY7uErArXeVsczCWBtg2e-Jlgp0DyVHQL9VhUw&oe=66021F84" alt="Cover" />
+          <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="Cover" />
         </div>
         <div className="profile-info">
           <IonAvatar className="avatar">
-            <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/423583714_1444891803090617_4793189191939464381_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGl5A39vM92hA5ErEMAjCv2ZXDTm0Na27JlcNObQ1rbsp5Ul0wAFj9_JbdxCDOsPtvuoatpXT6aHADqwV134QR8&_nc_ohc=KA30GpMocpcAX96uIZj&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfCiSqiiYEsJtYCaLGxgm29UcXB2qQijyDF7E0jHXmSqOQ&oe=660309CC" alt="Profile" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOH2aZnIHWjMQj2lQUOWIL2f4Hljgab0ecZQ&usqp=CAU" alt="Profile" />
           </IonAvatar>
           <div className="profile-details">
             <h1>Bimbo E. Villaganas</h1>
