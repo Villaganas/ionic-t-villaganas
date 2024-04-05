@@ -14,8 +14,8 @@ import {
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
+import Tab2 from './pages/Click_counter';
+import Tab3 from './pages/Calculator';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonAvatar, IonItem, IonLabel, IonIcon } from '@ionic/react';
 import { logoFacebook, logoTwitter, logoInstagram } from 'ionicons/icons';
-import './Tab3.css';
+import './Calculator.css';
 
 const Tab3: React.FC = () => {
   const [expression, setExpression] = useState('');
