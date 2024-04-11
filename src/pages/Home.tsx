@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen>
         <h1>Welcome to my Ionic App</h1>
-        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus natus cupiditate ad nihil. Placeat odio quo aperiam animi ad recusandae, accusantium, neque explicabo impedit quae consequuntur laborum rem culpa sed re quasi odit maiores suscipit facilis, rerum facere nisi ducimus qui voluptas similique id! Quas vel voluptatibus perspiciatis placeat dolore corrupti ipsam fuga sequi cupiditate! Similique pariatur libero id sint expedita amet enim reiciendis aliquid labore possimus.</p>
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim rerum, voluptatem autem itaque qui a et quaerat asperiores perspiciatis ab debitis, minus fuga non molestias odit illum neque quo excepturi recusandae adipisci officia eligendi fugit. Dolore, magnam reiciendis vel fugiat cumque ipsam accusamus ad saepe? Explicabo ad consequatur sit tenetur nobis molestiae perspiciatis voluptates beatae illum atque aliquid, quisquam neque a officiis totam voluptas asperiores odit autem quo nostrum eaque. Assumenda excepturi sint rerum temporibus fugiat dolor placeat, totam voluptate?</p>
         <div className="profile-details">
           <h3>Bimbo E. Villaganas</h3>
           <p>20201259@nbsc.edu.ph</p>
