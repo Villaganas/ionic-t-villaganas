@@ -3,18 +3,27 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonAva
 import { logoFacebook, logoTwitter, logoInstagram } from 'ionicons/icons';
 import './Click_couter.css';
 
+
 const Tab2: React.FC = () => {
   const [count, setCount] = useState(0);
+
 
   const incrementCounter = () => {
     setCount(count + 1);
   };
 
+
   return (
     <IonPage>
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle>Click Counter</IonTitle>
+        </IonToolbar>
+      </IonHeader>
       
     </IonPage>
   );
 };
+
 
 export default Tab2;
