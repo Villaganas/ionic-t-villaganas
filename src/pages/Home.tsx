@@ -13,7 +13,8 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen>
       <h1>Welcome to my Ionic App</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus natus cupiditate ad nihil. Placeat odio quo aperiam animi ad recusandae, accusantium, neque explicabo impedit quae consequuntur laborum rem culpa sed ipsum error numquam earum pariatur hic eligendi minus magni facilis perspiciatis doloremque! Harum ullam archigit tecto quidem aliquid ex dolore quasi odit maiores suscipit facilis, rerum facere nisi ducimus qui voluptas similique id! Quas vel voluptatibus perspiciatis placeat dolore corrupti ipsam fuga sequi cupiditate! Similique pariatur libero id sint expedita amet enim reiciendis aliquid labore possimus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus natus cupiditate ad nihil. Placeat odio quo aperiam animi ad recusandae, accusantium, neque explicabo impedit quae consequuntur laborum rem culpa sed ipsum error numquam earum pariatur hic eligendi minus magni facilis perspiciatis doloremque! Harum ullam archigit tecto quidem aliquid ex dolore quasi odit maiores suscipit facilis, rerum facere nisi ducimus.</p>
+        <h2 id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ex quos eaque, vero corrupti deserunt aliquam cumque est asperiores optio similique sequi, corporis facilis libero cum sint ipsa hic. Reiciendis incidunt dolor tempore tenetur debitis soluta culpa alias placeat doloremque aspernatur consectetur, nulla magnam ullam esse quo rem expedita! Corrupti eius, fugiat perspiciatis nemo adipisci quibusdam rem dolorem officia rerum.</h2>
         <div className="profile-details">
           <h3>Bimbo E. Villaganas</h3>
           <p>20201259@nbsc.edu.ph</p>
