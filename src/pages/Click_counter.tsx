@@ -12,6 +12,11 @@ const Tab2: React.FC = () => {
 
   return (
     <IonPage>
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle>Click Counter</IonTitle>
+        </IonToolbar>
+      </IonHeader>
       
     </IonPage>
   );
