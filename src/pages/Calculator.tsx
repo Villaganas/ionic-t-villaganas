@@ -35,21 +35,21 @@ const Tab3: React.FC = () => {
           <div className="result">{result ? result : expression}</div>
           <div className="buttons">
             <div className="row">
-              <IonButton onClick={() => handleButtonClick('7')}>7</IonButton>
-              <IonButton onClick={() => handleButtonClick('8')}>8</IonButton>
               <IonButton onClick={() => handleButtonClick('9')}>9</IonButton>
+              <IonButton onClick={() => handleButtonClick('8')}>8</IonButton>
+              <IonButton onClick={() => handleButtonClick('7')}>7</IonButton>
               <IonButton onClick={() => handleButtonClick('/')}>/</IonButton>
             </div>
             <div className="row">
-              <IonButton onClick={() => handleButtonClick('4')}>4</IonButton>
-              <IonButton onClick={() => handleButtonClick('5')}>5</IonButton>
               <IonButton onClick={() => handleButtonClick('6')}>6</IonButton>
+              <IonButton onClick={() => handleButtonClick('5')}>5</IonButton>
+              <IonButton onClick={() => handleButtonClick('4')}>4</IonButton>
               <IonButton onClick={() => handleButtonClick('*')}>*</IonButton>
             </div>
             <div className="row">
-              <IonButton onClick={() => handleButtonClick('1')}>1</IonButton>
-              <IonButton onClick={() => handleButtonClick('2')}>2</IonButton>
               <IonButton onClick={() => handleButtonClick('3')}>3</IonButton>
+              <IonButton onClick={() => handleButtonClick('2')}>2</IonButton>
+              <IonButton onClick={() => handleButtonClick('1')}>1</IonButton>
               <IonButton onClick={() => handleButtonClick('-')}>-</IonButton>
             </div>
             <div className="row">
