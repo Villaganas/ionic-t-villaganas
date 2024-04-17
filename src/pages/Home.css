@@ -11,3 +11,22 @@ h1 {
     margin-top: 60px;
     font-size: 50px;
   }
+  ion-card{
+    width: 70%;
+    margin: 0% 15% 0% 15%;
+  }
+  ion-item {
+    width: 70%;
+    margin: 0% 15% 0% 15%;
+  }
+  ion-card-title{
+    font-size: 30px;
+  }
+  ion-card-subtitle{
+    font-size: 20px;
+  }
+  ion-card-header{
+    width: 70%;
+    text-align: center;
+    margin: 0% 15% 0% 15%;
+  }
