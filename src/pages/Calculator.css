@@ -44,4 +44,7 @@
   ion-button#equals-button {
     --color: rgb(6, 238, 6);
   }
-  
+  #arrow{
+    font-size: 50px;
+    margin: 1% 0% 0% 1.5%;
+  }

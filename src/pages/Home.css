@@ -17,7 +17,7 @@ h1 {
   }
   ion-item {
     width: 70%;
-    margin: 5% 15% 0% 15%;
+    margin: 1% 15% 0% 15%;
     border-radius: 8px; /* Adjust border-radius as needed */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adjust box-shadow as needed */
     border: 1px solid #e0e0e0; /* Adjust border color as needed */
