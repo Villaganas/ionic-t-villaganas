@@ -2,12 +2,12 @@
     --background: #f4f5f8;
   }
   
-  .counter-container {
+  #counter {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    margin-bottom: 10%;
   }
   
   h1 {
@@ -25,5 +25,9 @@
   ion-button {
     --background: #3b5998;
     --color: white;
+    height: 50px;
   }
-  
+  #arrow{
+    font-size: 50px;
+    margin: 1% 0% 0% 1.5%;
+  }
