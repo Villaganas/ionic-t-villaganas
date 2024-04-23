@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
-import { home, informationCircle, calculator, closeCircle } from 'ionicons/icons'; // Import necessary icons
+import {  home, informationCircle, calculator, closeCircle } from 'ionicons/icons'; // Import necessary icons
 import {
   IonApp,
   IonIcon,
@@ -16,6 +16,7 @@ import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Tab2 from './pages/Click_counter';
 import Tab3 from './pages/Calculator';
+import ToDoList from './pages/ToDoList';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -54,6 +55,9 @@ const App: React.FC = () => (
           </Route>
           <Route exact path="/Calculator">
             <Tab3 />
+            </Route>
+          <Route exact path="/ToDoList">
+            <ToDoList />
           </Route>
           <Route exact path="null">
           </Route>

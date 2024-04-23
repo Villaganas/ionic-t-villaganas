@@ -46,12 +46,14 @@ const Home: React.FC = () => {
                   <IonLabel>Calculator</IonLabel>
               </IonItem>
                 </IonRouterLink>
+                <IonRouterLink href="/ToDoList">
               <IonItem>
                 <IonThumbnail slot="start">
-                  <img alt="Silhouette of mountains" src="https://adderra.com/wp-content/uploads/2020/09/under-construction.png" />
+                  <img alt="Silhouette of mountains" src="https://imgs.search.brave.com/On-vTZ7Vjhx5EKaUl7_2__PPHrHcCH46MHIMIcwwzOw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE2/NzcyMzc2L3Bob3Rv/L25vdGVwYWQtdG8t/ZG8tbGlzdC1nZXQt/dGhpbmdzLWRvbmUu/d2VicD9iPTEmcz0x/NzA2NjdhJnc9MCZr/PTIwJmM9b2xLcUJ3/dGJKUUE0dEhfdEM1/MjBxbmdZd3lqY3Jw/dUhaMmVZcTNFWGdq/az0" />
                 </IonThumbnail>
-                <IonLabel>Blank</IonLabel>
+                <IonLabel>To Do List</IonLabel>
               </IonItem>
+              </IonRouterLink>
               <IonItem lines="none">
                 <IonThumbnail slot="start">
                   <img alt="Silhouette of mountains" src="https://adderra.com/wp-content/uploads/2020/09/under-construction.png" />
