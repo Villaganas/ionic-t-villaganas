@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IonFooter, IonRouterLink, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem, IonLabel, IonCheckbox, IonInput, IonButton, IonIcon } from '@ionic/react';
 import { logoInstagram, logoTwitter, logoFacebook, trashOutline, arrowBackCircle } from 'ionicons/icons'; // Added IonIcon import for delete icon
-
+import './ToDoList.css';
 interface ToDoItem {
   id: number;
   text: string;
