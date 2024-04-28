@@ -12,3 +12,7 @@ ion-button{
     width: 50%;
     margin: 2% 25%;
 }
+#arrow{
+    font-size: 50px;
+    margin: 1% 0% 0% 1.5%;
+  }

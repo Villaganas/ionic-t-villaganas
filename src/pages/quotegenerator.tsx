@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {IonFooter,
+import {IonFooter, IonRouterLink,
   IonBackButton,
   IonButton,
   IonButtons,
@@ -28,7 +28,7 @@ import {IonFooter,
   IonAvatar,
   IonThumbnail
 } from '@ionic/react';
-import { logoFacebook, logoTwitter, logoInstagram} from 'ionicons/icons';
+import { logoFacebook, logoTwitter, logoInstagram, arrowBackCircle} from 'ionicons/icons';
 
 
 //Dynamic data reference
@@ -79,6 +79,9 @@ const QuoteGenerator: React.FC = () => {
             <IonTitle size="large">Quote Generator</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <IonRouterLink href="/Home">
+            <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
+                </IonRouterLink>
         <div className="rizz">
 
         <img alt="Silhouette of mountains" src="https://media.tenor.com/6aejTZnDDxQAAAAM/rizz-face-rizzler.gif" />
