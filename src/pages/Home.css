@@ -7,35 +7,17 @@ p{
 #text{
   text-align: center;
 }
-#summary{
-  margin-top: 60px;
-  font-size: 50px;
-}
-ion-card{
-  width: 70%;
-  margin: 0% 15% 0% 15%;
-}
-ion-item {
-  width: 70%;
-  margin: 1% 15% 0% 15%;
-  border-radius: 8px; /* Adjust border-radius as needed */
+#card {
+  width: 60%;
+  margin: 1% 20% 0% 20%;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adjust box-shadow as needed */
   border: 1px solid #e0e0e0; /* Adjust border color as needed */
 }
-
-ion-card-title{
-  font-size: 30px;
-}
-ion-card-subtitle{
+.card-header1{
+  text-align: center;
   font-size: 20px;
 }
-ion-card-header{
-  width: 70%;
+.card-header{
   text-align: center;
-  margin: 0% 15% 0% 15%;
-}
-ion-col{
-  border-radius: 8px; /* Adjust border-radius as needed */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adjust box-shadow as needed */
-  border: 1px solid #e0e0e0; /* Adjust border color as needed */
+  font-size: 30px;
 }
