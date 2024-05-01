@@ -13,11 +13,11 @@ import {
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
-import Profile from './pages/Profile';
-import Tab2 from './pages/Click_counter';
+import Profile from './pages/profile/Profile';
+import Tab2 from './pages/click counter/Click_counter';
 import Tab3 from './pages/Calculator';
-import ToDoList from './pages/ToDoList';
-import QuoteGenerator from './pages/quotegenerator';
+import ToDoList from './pages/to do list/ToDoList';
+import QuoteGenerator from './pages/quotegenerator/quotegenerator';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';

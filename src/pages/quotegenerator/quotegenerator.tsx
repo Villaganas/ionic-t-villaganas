@@ -32,7 +32,7 @@ import { logoFacebook, logoTwitter, logoInstagram, arrowBackCircle} from 'ionico
 
 
 //Dynamic data reference
-import rizzCard from '../assets/json/rizzCard.json';
+import rizzCard from '../../assets/json/rizzCard.json';
 import './quotegenerator.css';
 const QuoteGenerator: React.FC = () => {
 
