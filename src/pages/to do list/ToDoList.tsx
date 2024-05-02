@@ -65,6 +65,9 @@ const ToDoList: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        <IonRouterLink href="/Home">
+            <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
+                </IonRouterLink>
         <IonItem>
           <IonInput placeholder="Enter a new todo" value={newTodoText} onIonChange={(e) => setNewTodoText(e.detail.value!)} />
           <IonButton slot="end" onClick={handleAddTodo}>Add</IonButton>

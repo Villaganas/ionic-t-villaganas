@@ -24,10 +24,11 @@ import {
   IonTitle,
   IonToolbar,
   useIonToast,
-  IonFooter
+  IonFooter,
+  IonRouterLink
 
 } from '@ionic/react';
-import { trashOutline, pencilOutline, logoFacebook, logoTwitter, logoInstagram } from 'ionicons/icons';
+import { arrowBackCircle, trashOutline, pencilOutline, logoFacebook, logoTwitter, logoInstagram } from 'ionicons/icons';
 
 import { collection, addDoc, onSnapshot, updateDoc, deleteDoc, doc } from 'firebase/firestore';
 import { db } from './firebase';
@@ -147,13 +148,14 @@ const deleteNote = async (index: number) => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton defaultHref="/" />
-          </IonButtons>
           <IonTitle>Notes</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
+        
+      <IonRouterLink href="./Home">
+            <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
+                </IonRouterLink>
       <IonCard>
           <IonCardHeader>
             <IonCardTitle>
