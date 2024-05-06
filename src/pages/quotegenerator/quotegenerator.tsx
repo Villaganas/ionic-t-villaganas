@@ -11,7 +11,7 @@ import {
   IonRouterLink,
   IonIcon
 } from '@ionic/react';
-import { logoFacebook, arrowBackCircle, logoTwitter, logoInstagram} from 'ionicons/icons';
+import { arrowBackCircle } from 'ionicons/icons';
 import { collection, getDocs } from 'firebase/firestore'; // Import Firestore functions
 import { db } from './firebase'; // Import Firebase connection
 import './quotegenerator.css'; // Import custom CSS file for styling
@@ -72,24 +72,22 @@ const QuoteGenerator: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonRouterLink href="/Home">
-            <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
-                </IonRouterLink>
-        <div className="rizz">
+          <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
+        </IonRouterLink>
+        <div className="quote-container">
           <img alt="Silhouette of mountains" src="https://media.tenor.com/yEG23sxXIVQAAAAM/shrek-shrek-meme.gif" />
           {/*Button Trigger*/}
-          <IonGrid>
-            <IonButton color="warning" expand="full" onClick={handleOpenAlert}>
-              Click me
-            </IonButton>
-            <IonAlert
-              isOpen={showAlert}
-              onDidDismiss={handleAlertDismiss} // Call the handleAlertDismiss function when the alert is closed
-              header="Rizz"
-              cssClass="custom-alert"
-              message={renderRandomMessage()}
-              buttons={['Close']}
-            />
-          </IonGrid>
+          <IonButton color="warning" onClick={handleOpenAlert}>
+            Click me
+          </IonButton>
+          <IonAlert
+            isOpen={showAlert}
+            onDidDismiss={handleAlertDismiss} // Call the handleAlertDismiss function when the alert is closed
+            header="Rizz"
+            cssClass="custom-alert"
+            message={renderRandomMessage()}
+            buttons={['Close']}
+          />
         </div>
       </IonContent>
     </IonPage>
