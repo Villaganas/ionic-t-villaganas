@@ -46,10 +46,10 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/Home">
+          <Route exact path="/ionic-t-villaganas/Home">
             <Home />
           </Route>
-          <Route exact path="/Profile">
+          <Route exact path="/ionic-t-villaganas/Profile">
             <Profile />
           </Route>
           <Route exact path="/ionic-t-villaganas/click_counter">
@@ -68,20 +68,16 @@ const App: React.FC = () => (
             <Notes />
           </Route>
           
-          <Route exact path="/">
-            <Redirect to="/ionic-t-villaganas/app/Home" />
+          <Route exact path="/ionic-t-villaganas/">
+            <Redirect to="/ionic-t-villaganas/Home" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="Home" href="/Home">
+          <IonTabButton tab="Home" href="/ionic-t-villaganas/Home">
             <IonIcon aria-hidden="true" icon={home} />
             <IonLabel>Home</IonLabel>
           </IonTabButton>
-          <IonTabButton>
-            <IonIcon aria-hidden="true" icon={closeCircle} /> 
-            <IonLabel>Blank</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="Profile" href="/Profile">
+          <IonTabButton tab="Profile" href="/ionic-t-villaganas/Profile">
             <IonIcon aria-hidden="true" icon={informationCircle} />
             <IonLabel>Profile</IonLabel>
           </IonTabButton>
