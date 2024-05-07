@@ -23,7 +23,7 @@ const Tab2: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen className="counter-content">
       
-      <IonRouterLink href="/Home">
+      <IonRouterLink href="/ionic-t-villaganas/app/Home">
             <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
                 </IonRouterLink>
 

@@ -52,24 +52,24 @@ const App: React.FC = () => (
           <Route exact path="/Profile">
             <Profile />
           </Route>
-          <Route exact path="/Click_counter">
+          <Route exact path="/ionic-t-villaganas/click_counter">
             <Tab2 />
           </Route>
-          <Route exact path="/Calculator">
+          <Route exact path="/ionic-t-villaganas/Calculator">
             <Tab3 />
             </Route>
-          <Route exact path="/ToDoList">
+          <Route exact path="/ionic-t-villaganas/ToDoList">
             <ToDoList />
           </Route>
-          <Route path="/quotegenerator">
+          <Route path="/ionic-t-villaganas/quotegenerator">
             <QuoteGenerator />
           </Route>
-          <Route path="/notes">
+          <Route path="/ionic-t-villaganas/notes">
             <Notes />
           </Route>
           
           <Route exact path="/">
-            <Redirect to="/Home" />
+            <Redirect to="/ionic-t-villaganas/app/Home" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">

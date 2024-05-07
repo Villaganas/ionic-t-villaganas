@@ -38,31 +38,31 @@ const cardData = [
     title: 'Click Counter',
     icon: speedometerOutline,
     subtitle: 'Applet #1',
-    link: '/click_counter'
+    link: '/ionic-t-villaganas/click_counter'
   },
   {
     title: 'Calculator',
     icon: calculator,
     subtitle: 'Applet #2',
-    link: '/Calculator'
+    link: '/ionic-t-villaganas/Calculator'
   },
   {
     title: 'To Do List',
     icon: pencil,
     subtitle: 'Applet #3',
-    link: '/ToDoList'
+    link: '/ionic-t-villaganas/ToDoList'
   },
   {
     title: 'Quotes Generator',
     icon: chatbubble,
     subtitle: 'Applet #4',
-    link: '/quotegenerator'
+    link: '/ionic-t-villaganas/quotegenerator'
   },
   {
     title: 'Notes',
     icon: readerOutline,
     subtitle: 'Applet #5',
-    link: '/notes',
+    link: '/ionic-t-villaganas/notes',
     tags: {
       tag1: logoIonic,
       tag2: logoReact, 

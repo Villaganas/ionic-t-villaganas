@@ -32,7 +32,7 @@ const Tab3: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-      <IonRouterLink href="/Home">
+      <IonRouterLink href="/ionic-t-villaganas/app/Home">
             <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
                 </IonRouterLink>
         <div className="calculator-container">

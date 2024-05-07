@@ -153,7 +153,7 @@ const deleteNote = async (index: number) => {
       </IonHeader>
       <IonContent className="ion-padding">
         
-      <IonRouterLink href="./Home">
+      <IonRouterLink href="/ionic-t-villaganas/app/Home">
             <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
                 </IonRouterLink>
       <IonCard>
