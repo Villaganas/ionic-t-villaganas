@@ -18,11 +18,11 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Click Counter</IonTitle>
-        </IonToolbar>
         <IonButtons slot='start'>
               <IonBackButton defaultHref='/app/home'/>
         </IonButtons>
+          <IonTitle>Click Counter</IonTitle>
+        </IonToolbar>
       </IonHeader>
       <IonContent fullscreen className="counter-content">
       

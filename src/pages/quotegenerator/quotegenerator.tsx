@@ -64,11 +64,11 @@ const QuoteGenerator: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Quote Generator</IonTitle>
-        </IonToolbar>
         <IonButtons slot='start'>
               <IonBackButton defaultHref='/app/home'/>
         </IonButtons>
+          <IonTitle>Quote Generator</IonTitle>
+        </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
     

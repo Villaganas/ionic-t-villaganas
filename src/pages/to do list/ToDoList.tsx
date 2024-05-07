@@ -61,11 +61,11 @@ const ToDoList: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>ToDo List</IonTitle>
-        </IonToolbar>
         <IonButtons slot='start'>
               <IonBackButton defaultHref='/app/home'/>
         </IonButtons>
+          <IonTitle>ToDo List</IonTitle>
+        </IonToolbar>
       </IonHeader>
       <IonContent>
    
