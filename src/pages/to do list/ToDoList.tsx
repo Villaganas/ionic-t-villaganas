@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { IonFooter, IonRouterLink, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem, IonLabel, IonCheckbox, IonInput, IonButton, IonIcon } from '@ionic/react';
+import { IonFooter, IonRouterLink, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem, IonLabel, IonCheckbox, IonInput, IonButton, IonIcon, IonBackButton, IonButtons } from '@ionic/react';
 import { logoInstagram, logoTwitter, logoFacebook, trashOutline, arrowBackCircle } from 'ionicons/icons'; // Added IonIcon import for delete icon
 import './ToDoList.css';
 import { collection, addDoc, getDocs, deleteDoc, updateDoc, doc } from 'firebase/firestore'; // Import Firestore functions
@@ -61,13 +61,14 @@ const ToDoList: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+        <IonButtons slot='start'>
+              <IonBackButton defaultHref='/app/home'/>
+        </IonButtons>
           <IonTitle>ToDo List</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <IonRouterLink href="/Home">
-            <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
-                </IonRouterLink>
+   
         <IonItem>
           <IonInput placeholder="Enter a new todo" value={newTodoText} onIonChange={(e) => setNewTodoText(e.detail.value!)} />
           <IonButton slot="end" onClick={handleAddTodo}>Add</IonButton>

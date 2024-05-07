@@ -9,7 +9,9 @@ import {
   IonToolbar,
   IonAlert,
   IonRouterLink,
-  IonIcon
+  IonIcon,
+  IonBackButton,
+  IonButtons
 } from '@ionic/react';
 import { arrowBackCircle } from 'ionicons/icons';
 import { collection, getDocs } from 'firebase/firestore'; // Import Firestore functions
@@ -62,18 +64,14 @@ const QuoteGenerator: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+        <IonButtons slot='start'>
+              <IonBackButton defaultHref='/app/home'/>
+        </IonButtons>
           <IonTitle>Quote Generator</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Quote Generator</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <IonRouterLink href="/Home">
-          <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
-        </IonRouterLink>
+    
         <div className="quote-container">
           <img alt="Silhouette of mountains" src="https://media.tenor.com/yEG23sxXIVQAAAAM/shrek-shrek-meme.gif" />
           {/*Button Trigger*/}

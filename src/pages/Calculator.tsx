@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IonFooter, IonList, IonInput, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonAvatar, IonItem, IonLabel, IonIcon } from '@ionic/react';
+import { IonFooter, IonList, IonInput, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonAvatar, IonItem, IonLabel, IonIcon, IonBackButton, IonButtons } from '@ionic/react';
 import { logoFacebook, arrowBackCircle, logoTwitter, logoInstagram} from 'ionicons/icons';
 import { IonRouterLink } from '@ionic/react'; // Added IonRouterLink import
 import './Calculator.css';
@@ -28,13 +28,13 @@ const Tab3: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+        <IonButtons slot='start'>
+              <IonBackButton defaultHref='/app/home'/>
+        </IonButtons>
           <IonTitle>Calculator</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-      <IonRouterLink href="/Home">
-            <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
-                </IonRouterLink>
         <div className="calculator-container">
           <div className="result">{result ? result : expression}</div>
           <div className="buttons">

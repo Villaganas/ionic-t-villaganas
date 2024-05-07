@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IonThumbnail, IonTabButton, IonFooter, IonList, IonInput, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonAvatar, IonItem, IonLabel, IonIcon } from '@ionic/react';
+import { IonThumbnail, IonTabButton, IonFooter, IonList, IonInput, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonAvatar, IonItem, IonLabel, IonIcon, IonBackButton, IonButtons } from '@ionic/react';
 import { arrowBackCircle, logoFacebook, home, logoTwitter, logoInstagram } from 'ionicons/icons';
 import { IonRouterLink } from '@ionic/react'; // Added IonRouterLink import
 import './Click_couter.css';
@@ -18,15 +18,16 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+        <IonButtons slot='start'>
+              <IonBackButton defaultHref='/app/home'/>
+        </IonButtons>
           <IonTitle>Click Counter</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen className="counter-content">
       
-      <IonRouterLink href="/Home">
-            <IonIcon id="arrow" aria-hidden="true" icon={arrowBackCircle} />
-                </IonRouterLink>
-
+   
+           
         <div id="counter">
           <h1>Click Counter</h1>
           <p>Total Clicks: {count}</p>

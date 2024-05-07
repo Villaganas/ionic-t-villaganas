@@ -46,42 +46,38 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/Home">
+          <Route exact path="/ionic-t-villaganas/Home">
             <Home />
           </Route>
-          <Route exact path="/Profile">
+          <Route exact path="/ionic-t-villaganas/Profile">
             <Profile />
           </Route>
-          <Route exact path="/Click_counter">
+          <Route exact path="/ionic-t-villaganas/click_counter">
             <Tab2 />
           </Route>
-          <Route exact path="/Calculator">
+          <Route exact path="/ionic-t-villaganas/Calculator">
             <Tab3 />
             </Route>
-          <Route exact path="/ToDoList">
+          <Route exact path="/ionic-t-villaganas/ToDoList">
             <ToDoList />
           </Route>
-          <Route path="/quotegenerator">
+          <Route path="/ionic-t-villaganas/quotegenerator">
             <QuoteGenerator />
           </Route>
-          <Route path="/notes">
+          <Route path="/ionic-t-villaganas/notes">
             <Notes />
           </Route>
           
-          <Route exact path="/">
-            <Redirect to="/Home" />
+          <Route exact path="/ionic-t-villaganas/">
+            <Redirect to="/ionic-t-villaganas/Home" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="Home" href="/Home">
+          <IonTabButton tab="Home" href="/ionic-t-villaganas/Home">
             <IonIcon aria-hidden="true" icon={home} />
             <IonLabel>Home</IonLabel>
           </IonTabButton>
-          <IonTabButton>
-            <IonIcon aria-hidden="true" icon={closeCircle} /> 
-            <IonLabel>Blank</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="Profile" href="/Profile">
+          <IonTabButton tab="Profile" href="/ionic-t-villaganas/Profile">
             <IonIcon aria-hidden="true" icon={informationCircle} />
             <IonLabel>Profile</IonLabel>
           </IonTabButton>
